@@ -1,0 +1,38 @@
+[
+    {
+        "id": "logger.debug.enabled",
+        "label": "Enable debug logging?",
+        "type": "bool",
+        "default": "false"
+    },
+    {
+        "id": "mdf.directory.recurse",
+        "label": "How many directories should be recursed?",
+        "type": "text",
+        "default": "3"
+    },
+    {
+		"id": "mdf.metadata.enabled",
+		"label": "Use metadata files?",
+		"type": "bool",
+		"default": "true"
+    },
+    {
+        "id": "mdf.metadata.filename",
+        "label": "File name to use for global metadata files:",
+        "type": "text",
+        "default": "_metadata"
+    },
+    {
+		"id": "mdf.catalog.enabled",
+		"label": "Use catalog files?",
+		"type": "bool",
+		"default": "true"
+    },
+    {
+        "id": "mdf.catalog.filename",
+        "label": "File name to use for catalog files:",
+        "type": "text",
+        "default": "_catalog"
+    }
+]
